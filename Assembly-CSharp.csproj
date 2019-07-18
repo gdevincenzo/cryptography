@@ -62,8 +62,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\CameraController.cs" />
+    <Compile Include="Assets\DrawOrderStatic.cs" />
+    <Compile Include="Assets\Scripts\DrawOrder.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Examples\Overhead\Sprites\MegaDad\OverheadMegaDadController.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\CollisionObject.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\CollisionShapeType.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\CustomProperty.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Extensions\CustomPropertyExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Extensions\SuperTileExtensions.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\FlipFlags.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\GridOrientation.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\MapOrientation.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\MapRenderOrder.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\Math\MatrixUtils.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\StaggerAxis.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\StaggerIndex.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperColliderComponent.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperCustomProperties.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperGroupLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperImageLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperMap.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperObject.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperObjectLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperTile.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\SuperTileLayer.cs" />
+    <Compile Include="Assets\SuperTiled2Unity\Scripts\TileObjectAnimator.cs" />
+    <None Include="Assets\SuperTiled2Unity\Examples\Overhead\Maps\Zoria Tileset\readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/drago/Desktop/Cryptography/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
