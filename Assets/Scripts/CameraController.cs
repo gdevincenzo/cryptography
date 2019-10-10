@@ -27,5 +27,9 @@ public class CameraController : MonoBehaviour
         {
             camera.SetActive(false);
         }
+        if (Input.GetKeyDown(KeyCode.Space) && camera.activeSelf)
+        {
+            ScreenshotHandler.TakeScreenshot_Static(500,500);
+        }
     }
 }
